@@ -20,7 +20,7 @@
 $server = 'localhost';
 $user = 'root';
 $pwd = '';
-$db = 'bdd_cours';
+$db = 'base_exercice';
 
 try {
 
@@ -37,7 +37,7 @@ try {
 
     if($state) {
         foreach($pom->fetchAll() as $user) {
-            echo "<div>Personne " . $user['id'] . ":" . $user['nom'] . " " . $user['prenom'] . " " . $user['rue'] . " " . $user['numero'] . " " . $user['code postal'] . " " . $user['ville'] . " " . $user['pays'] . " " . $user['mail'] . "</div>";
+            echo "<div>Personne " . $user['id'] . ":" . $user['nom'] . " " . $user['prenom'] . " " . $user['rue'] . " " . $user['numero'] . " " . $user['code_postal'] . " " . $user['ville'] . " " . $user['pays'] . " " . $user['mail'] . "</div>";
         }
     }
     else {
@@ -53,7 +53,7 @@ try {
 
     if($state) {
         foreach($pom->fetchAll() as $user) {
-            echo "<div>Personne " . $user['id'] . ":" . $user['nom'] . " " . $user['prenom'] . " " . $user['rue'] . " " . $user['numero'] . " " . $user['code postal'] . " " . $user['ville'] . " " . $user['pays'] . " " . $user['mail'] . "</div>";
+            echo "<div>Personne " . $user['id'] . ":" . $user['nom'] . " " . $user['prenom'] . " " . $user['rue'] . " " . $user['numero'] . " " . $user['code_postal'] . " " . $user['ville'] . " " . $user['pays'] . " " . $user['mail'] . "</div>";
         }
     }
     else {
@@ -69,7 +69,7 @@ try {
 
     if($state) {
         foreach($pom->fetchAll() as $user) {
-            echo "<div>Personne " . $user['id'] . ":" . $user['nom'] . " " . $user['prenom'] . " " . $user['rue'] . " " . $user['numero'] . " " . $user['code postal'] . " " . $user['ville'] . " " . $user['pays'] . " " . $user['mail'] . "</div>";
+            echo "<div>Personne " . $user['id'] . ":" . $user['nom'] . " " . $user['prenom'] . " " . $user['rue'] . " " . $user['numero'] . " " . $user['code_postal'] . " " . $user['ville'] . " " . $user['pays'] . " " . $user['mail'] . "</div>";
         }
     }
     else {
@@ -85,7 +85,7 @@ try {
 
     if($state) {
         foreach($pom->fetchAll() as $user) {
-            echo "<div>Personne " . $user['id'] . ":" . $user['nom'] . " " . $user['prenom'] . " " . $user['rue'] . " " . $user['numero'] . " " . $user['code postal'] . " " . $user['ville'] . " " . $user['pays'] . " " . $user['mail'] . "</div>";
+            echo "<div>Personne " . $user['id'] . ":" . $user['nom'] . " " . $user['prenom'] . " " . $user['rue'] . " " . $user['numero'] . " " . $user['code_postal'] . " " . $user['ville'] . " " . $user['pays'] . " " . $user['mail'] . "</div>";
         }
     }
     else {
@@ -101,7 +101,7 @@ try {
 
     if($state) {
         foreach($pom->fetchAll() as $user) {
-            echo "<div>Personne " . $user['id'] . ":" . $user['nom'] . " " . $user['prenom'] . " " . $user['rue'] . " " . $user['numero'] . " " . $user['code postal'] . " " . $user['ville'] . " " . $user['pays'] . " " . $user['mail'] . "</div>";
+            echo "<div>Personne " . $user['id'] . ":" . $user['nom'] . " " . $user['prenom'] . " " . $user['rue'] . " " . $user['numero'] . " " . $user['code_postal'] . " " . $user['ville'] . " " . $user['pays'] . " " . $user['mail'] . "</div>";
         }
     }
     else {
@@ -117,7 +117,7 @@ try {
 
     if($state) {
         foreach($pom->fetchAll() as $user) {
-            echo "<div>Personne " . $user['id'] . ":" . $user['nom'] . " " . $user['prenom'] . " " . $user['rue'] . " " . $user['numero'] . " " . $user['code postal'] . " " . $user['ville'] . " " . $user['pays'] . " " . $user['mail'] . "</div>";
+            echo "<div>Personne " . $user['id'] . ":" . $user['nom'] . " " . $user['prenom'] . " " . $user['rue'] . " " . $user['numero'] . " " . $user['code_postal'] . " " . $user['ville'] . " " . $user['pays'] . " " . $user['mail'] . "</div>";
         }
     }
     else {
@@ -133,7 +133,7 @@ try {
 
     if($state) {
         foreach($pom->fetchAll() as $user) {
-            echo "<div>Personne " . $user['id'] . ":" . $user['nom'] . " " . $user['prenom'] . " " . $user['rue'] . " " . $user['numero'] . " " . $user['code postal'] . " " . $user['ville'] . " " . $user['pays'] . " " . $user['mail'] . "</div>";
+            echo "<div>Personne " . $user['id'] . ":" . $user['nom'] . " " . $user['prenom'] . " " . $user['rue'] . " " . $user['numero'] . " " . $user['code_postal'] . " " . $user['ville'] . " " . $user['pays'] . " " . $user['mail'] . "</div>";
         }
     }
     else {
@@ -149,7 +149,7 @@ try {
 
     if($state) {
         foreach($pom->fetchAll() as $user) {
-            echo "<div>Personne " . $user['id'] . ":" . $user['nom'] . " " . $user['prenom'] . " " . $user['rue'] . " " . $user['numero'] . " " . $user['code postal'] . " " . $user['ville'] . " " . $user['pays'] . " " . $user['mail'] . "</div>";
+            echo "<div>Personne " . $user['id'] . ":" . $user['nom'] . " " . $user['prenom'] . " " . $user['rue'] . " " . $user['numero'] . " " . $user['code_postal'] . " " . $user['ville'] . " " . $user['pays'] . " " . $user['mail'] . "</div>";
         }
     }
     else {
@@ -165,7 +165,7 @@ try {
 
     if($state) {
         foreach($pom->fetchAll() as $user) {
-            echo "<div>Personne " . $user['id'] . ":" . $user['nom'] . " " . $user['prenom'] . " " . $user['rue'] . " " . $user['numero'] . " " . $user['code postal'] . " " . $user['ville'] . " " . $user['pays'] . " " . $user['mail'] . "</div>";
+            echo "<div>Personne " . $user['id'] . ":" . $user['nom'] . " " . $user['prenom'] . " " . $user['rue'] . " " . $user['numero'] . " " . $user['code_postal'] . " " . $user['ville'] . " " . $user['pays'] . " " . $user['mail'] . "</div>";
         }
     }
     else {
@@ -175,13 +175,13 @@ try {
     /* 10. Sélectionnez et affichez tous les utilisateurs par ordre croissant, en limitant le résultat à 1 seul enregistrement */
     // TODO Votre code ici.
 
-    $pom = $maConnexion->prepare("SELECT * from user ORDER BY id DESC LIMIT 1");
+    $pom = $maConnexion->prepare("SELECT * from user ORDER BY id ASC LIMIT 1");
 
     $state = $pom->execute();
 
     if($state) {
         foreach($pom->fetchAll() as $user) {
-            echo "<div>Personne " . $user['id'] . ":" . $user['nom'] . " " . $user['prenom'] . " " . $user['rue'] . " " . $user['numero'] . " " . $user['code postal'] . " " . $user['ville'] . " " . $user['pays'] . " " . $user['mail'] . "</div>";
+            echo "<div>Personne " . $user['id'] . ":" . $user['nom'] . " " . $user['prenom'] . " " . $user['rue'] . " " . $user['numero'] . " " . $user['code_postal'] . " " . $user['ville'] . " " . $user['pays'] . " " . $user['mail'] . "</div>";
         }
     }
     else {
@@ -197,7 +197,7 @@ try {
 
     if($state) {
         foreach($pom->fetchAll() as $user) {
-            echo "<div>Personne " . $user['id'] . ":" . $user['nom'] . " " . $user['prenom'] . " " . $user['rue'] . " " . $user['numero'] . " " . $user['code postal'] . " " . $user['ville'] . " " . $user['pays'] . " " . $user['mail'] . "</div>";
+            echo "<div>Personne " . $user['id'] . ":" . $user['nom'] . " " . $user['prenom'] . " " . $user['rue'] . " " . $user['numero'] . " " . $user['code_postal'] . " " . $user['ville'] . " " . $user['pays'] . " " . $user['mail'] . "</div>";
         }
     }
     else {
@@ -213,7 +213,7 @@ try {
 
     if($state) {
         foreach($pom->fetchAll() as $user) {
-            echo "<div>Personne " . $user['id'] . ":" . $user['nom'] . " " . $user['prenom'] . " " . $user['rue'] . " " . $user['numero'] . " " . $user['code postal'] . " " . $user['ville'] . " " . $user['pays'] . " " . $user['mail'] . "</div>";
+            echo "<div>Personne " . $user['id'] . ":" . $user['nom'] . " " . $user['prenom'] . " " . $user['rue'] . " " . $user['numero'] . " " . $user['code_postal'] . " " . $user['ville'] . " " . $user['pays'] . " " . $user['mail'] . "</div>";
         }
     }
     else {
@@ -229,7 +229,7 @@ try {
 
     if($state) {
         foreach($pom->fetchAll() as $user) {
-            echo "<div>Personne " . $user['id'] . ":" . $user['nom'] . " " . $user['prenom'] . " " . $user['rue'] . " " . $user['numero'] . " " . $user['code postal'] . " " . $user['ville'] . " " . $user['pays'] . " " . $user['mail'] . "</div>";
+            echo "<div>Personne " . $user['id'] . ":" . $user['nom'] . " " . $user['prenom'] . " " . $user['rue'] . " " . $user['numero'] . " " . $user['code_postal'] . " " . $user['ville'] . " " . $user['pays'] . " " . $user['mail'] . "</div>";
         }
     }
     else {
@@ -245,7 +245,7 @@ try {
 
     if($state) {
         foreach($pom->fetchAll() as $user) {
-            echo "<div>Personne " . $user['id'] . ":" . $user['nom'] . " " . $user['prenom'] . " " . $user['rue'] . " " . $user['numero'] . " " . $user['code postal'] . " " . $user['ville'] . " " . $user['pays'] . " " . $user['mail'] . "</div>";
+            echo "<div>Personne " . $user['id'] . ":" . $user['nom'] . " " . $user['prenom'] . " " . $user['rue'] . " " . $user['numero'] . " " . $user['code_postal'] . " " . $user['ville'] . " " . $user['pays'] . " " . $user['mail'] . "</div>";
         }
     }
     else {
